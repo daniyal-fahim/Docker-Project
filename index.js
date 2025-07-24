@@ -1,7 +1,7 @@
 import amqp from "amqplib";
 import fs from "fs";
 
-const RABBITMQ_URL = process.env.RABBITMQ_URL || "amqp://localhost";
+const RABBITMQ_URL = process.env.RABBITMQ_URL || "amqp://rabbitmq";
 const QUEUE = "claims";
 const LOG_FILE = "claims_log.txt";
 

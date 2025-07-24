@@ -1,0 +1,2 @@
+Received Claim: {"id":1753377586104,"user":"dhjsk","amount":"348","status":"Pending"}
+Received Claim: {"id":1753377718626,"user":"Daniyal Fahim","amount":"348","status":"Successful"}

@@ -1,11 +1,8 @@
 #!/bin/sh
-# wait-for-rabbit.sh
-
-echo "Waiting for RabbitMQ to be ready..."
-
+echo "Waiting for RabbitMQ..."
 until nc -z rabbitmq 5672; do
-  sleep 1
+  echo "Waiting for RabbitMQ port 5672..."
+  sleep 2
 done
-
-echo "RabbitMQ is ready. Starting service..."
+echo "RabbitMQ ready. Starting service..."
 exec "$@"
